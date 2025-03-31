@@ -2,7 +2,7 @@
     <div class="container">
       <h1>Welcome to My Hiphop🎤 School</h1>
       <div class="course-list">
-        <SkalaCourse
+        <HiphopCourse
           v-for="(course, index) in courses"
           :key="index"
           :title="course.title"
@@ -18,7 +18,7 @@
 
 <script setup>
 import { ref } from 'vue'
-import SkalaCourse from './SkalaCourse.vue'
+import HiphopCourse from './HiphopCourse.vue'
 
 const courses = ref([
   { title: 'Rapping', time: 10 },

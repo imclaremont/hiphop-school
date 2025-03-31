@@ -1,7 +1,7 @@
 <template>
-  <SkalaSchool />
+  <HiphopSchool />
 </template>
 
 <script setup>
-import SkalaSchool from './components/SkalaSchool.vue'
+import HiphopSchool from './components/HiphopSchool.vue'
 </script>
